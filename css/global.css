@@ -1,0 +1,84 @@
+html, body{
+    width: 1000px;
+}
+
+h1{
+    font-size: 25px;
+    font-family: 'Space Mono', sans-serif;
+    padding-left: 10px;
+}
+
+h2{
+   font-family: 'Space Mono', sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+  
+img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer{
+    text-align: center;
+    font-size: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    font-size: 10px;
+    padding-top: 5px;
+    font-family: 'Space Mono', sans-serif;
+    text-align: right
+}
+
+nav li{
+    display: inline-block;
+    padding: 5px;
+}
+
+section{
+    background-color: aliceblue;
+    padding: 20px;
+    padding: 10px;
+}
+
+div{
+    background-color: beige;
+    padding: 10px;
+    display: inline-block;
+    float: left;
+    width: 300px;
+}
+
+#treva{
+    width: 100px;
+    padding: 5px;
+    height: inherit;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: blue;
+}
+
+button{
+    width: 100%;
+}
+
+button:focus{
+    background-color: lightgray;
+}
