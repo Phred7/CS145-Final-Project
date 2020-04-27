@@ -93,10 +93,10 @@ section{
 }
 
 div{
-    /* background-color: beige;*/
+   /* background-color: beige;*/
     padding-top: 16px;
     padding-bottom: 16px; 
-
+    display: inline-block;
     width: 1000px;
     text-align: center;
 }
