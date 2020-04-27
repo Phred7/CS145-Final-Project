@@ -35,8 +35,8 @@ img{
 footer{
     text-align: center;
     font-size: 10px;
-    display: block;
-    box-sizing: border-box;
+    display: inline; /*change to block to put back to normal weirdness*/
+    box-sizing: border-box; 
     font-family: 'Montserrat', sans-serif;
     background-color: #eee;
 }
