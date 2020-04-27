@@ -93,9 +93,14 @@ section{
 }
 
 div{
+<<<<<<< HEAD
    /* background-color: beige;*/
     padding-top: 16px;
     padding-bottom: 16px; 
+=======
+    background-color: #eee;
+    padding: 50px 16px 16px 16px; /*top right bottom left*/
+>>>>>>> eaf503651b3b91512c8a599ec20fcea1a531c3d8
     display: inline-block;
     width: 1000px;
     text-align: center;
