@@ -6,7 +6,9 @@ html, body{
     background-image: url(../images/galaxy.jpg); 
     background-position: top;
     background-size: cover;
-    width: 1000px;
+    width: 100%;
+    padding: 0px;
+    
 }
 
 #overlay {
@@ -17,9 +19,17 @@ html, body{
     object-fit: cover;
     line-height: 200px;
     width: 1000px;
+    padding: 0px;
+    margin: 0px;
 }
 
 h1{
     font-size: 40px;
     text-align: center;
+}
+
+.drop-menu{
+    padding: 0px;
+    margin: 0px;
+    width: 100%
 }

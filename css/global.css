@@ -38,24 +38,60 @@ footer{
     display: block;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
 }
 
 header{
-    font-size: 10px;
+    height: 100px;
+    width: 100%;
+    font-size: 12px;
     padding-top: 5px;
     font-family: 'Space Mono', sans-serif;
-    text-align: right
+    text-align: right;
+    background-color: #eee;
+    margin-bottom: 16px;
 }
 
-nav li{
+
+#treva{
+    padding: 22px 5px 5px 5px; /*top right bottom left*/
+    height: 45px;
+    width: auto;
+    object-fit: scale-down;
+}
+
+header #nav ul{
+    list-style-type: none;
+    padding: 0px 0px 0px 0px; /*top right bottom left*/
+}
+
+header #nav li{
     display: inline-block;
-    padding: 5px;
+    padding: 25px 0px 25px 0px; /*top right bottom left*/
+}
+
+header #nav li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 25px 30px 25px 30px; /*top right bottom left*/
+}
+
+header #nav li a:hover{
+    color: white;
+    background-color: #333;
+}
+
+header #nav li a.active{
+    background-color: #666;
+    color: white;
 }
 
 section{
     background-color: aliceblue;
     padding: 20px;
-    padding: 10px;
 }
 
 div{
@@ -66,14 +102,8 @@ div{
     width: 300px;
 }
 
-#treva{
-    width: 100px;
-    padding: 5px;
-    height: inherit;
-}
-
-ul{
-    list-style-type: none;
+body{
+    width: 100%;
 }
 
 a{
