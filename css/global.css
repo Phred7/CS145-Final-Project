@@ -93,7 +93,7 @@ section{
 }
 
 div{
-    background-color: beige;
+    background-color: #eee;
     padding: 50px 16px 16px 16px; /*top right bottom left*/
     display: inline-block;
     float: left;
