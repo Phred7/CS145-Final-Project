@@ -1,7 +1,9 @@
 div {
-    width:100%;
+    width:980px;
     height: 500px;
-    padding: 25px 10px 100px 10px; /*top right bottom left*/
+    padding: 25px 10px 0px 10px; /*top right bottom left*/
+    margin-top: 25px;
+    margin-bottom: 75px;
 }
 
 #bigimage {
@@ -24,12 +26,13 @@ img {
 
 h2 {
     margin: 0px;
-    padding-top: 155px;
+    padding-top: 155px; 
+    font-size: 20px;   
 }
 
 button {
     text-align: center;
     padding-left: 0px;
-    width: 195px;
+    width: 185px;
     float: left;
 }
