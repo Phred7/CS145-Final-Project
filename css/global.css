@@ -89,15 +89,16 @@ header #nav li a.active{
 }
 
 section{
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
 }
 
 div{
-    background-color: beige;
-    padding: 50px 16px 16px 16px; /*top right bottom left*/
+   /* background-color: beige;*/
+    padding-top: 16px;
+    padding-bottom: 16px; 
     display: inline-block;
-    float: left;
-    width: 300px;
+    width: 1000px;
+    text-align: center;
 }
 
 body{
