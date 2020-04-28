@@ -4,6 +4,7 @@ div {
     padding: 25px 10px 0px 10px; /*top right bottom left*/
     margin-top: 25px;
     margin-bottom: 75px;
+    background-color: #eee; 
 }
 
 #bigimage {
