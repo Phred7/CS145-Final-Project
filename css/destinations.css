@@ -37,13 +37,20 @@ button {
     float: left;
 }
 
+footer{
+
+    display: inline; /*change to block to put back to normal weirdness*/
+    box-sizing: border-box; 
+    padding: 0px;
+    margin: 0px;    
+}
+
 footer #foot{
+    background-color: #eee;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 0px 15px 0px;
     height: inherit;
-    margin: inherit;
-    padding: inherit; 
-    display: inherit;
-    width: inherit;
-    text-align: inherit;
-    font-family: inherit;
-    font-size: inherit;
 }
