@@ -36,3 +36,14 @@ button {
     width: 185px;
     float: left;
 }
+
+footer #foot{
+    height: inherit;
+    margin: inherit;
+    padding: inherit; 
+    display: inherit;
+    width: inherit;
+    text-align: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
