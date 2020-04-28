@@ -26,10 +26,48 @@ html, body{
 h1{
     font-size: 40px;
     text-align: center;
+    padding: 25px;
+}
+
+h2{
+    font-size: 25Px;
+    text-align: center;
+    padding: 25px;
+}
+
+h3{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .drop-menu{
     padding: 0px;
     margin: 0px;
     width: 100%
+}
+
+#homepage{
+    width: 325px;
+    display: inline-block;
+    height: 325px;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+#home-pic{
+    width: 325px;
+    height: 325px;
+}
+
+#home-pic-long{
+    width: 650px;
+    height: 325px;
+}
+
+p{
+    padding-left: 25px;
+    padding-right: 25px;
 }
