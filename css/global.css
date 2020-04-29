@@ -140,3 +140,11 @@ button{
 button:focus{
     background-color: lightgray;
 }
+
+.stack{
+    width: 310px;
+    display: inline-block;
+    text-align: left;
+    padding-right: 0px;
+    margin: 0px;
+}
