@@ -10,14 +10,12 @@ div {
     width: 500px;
     height: 450px;
     padding: 0px 0px 15px 0px; /*top right bottom left*/
-    background-color: none;
 }
 
 .smallimage {
     width: 275px;
     height: 140px;
     padding: 0px 10px 15px 10px; /*top right bottom left*/
-    background-color: none;
 }
 
 img {

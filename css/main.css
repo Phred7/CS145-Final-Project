@@ -86,8 +86,7 @@ h3{
     float: right;
 }
 
-.homepage-text-right p{.
-    display: table-cell;
+.homepage-text-right p{
     vertical-align: bottom;
 }
 
