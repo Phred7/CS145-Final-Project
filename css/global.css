@@ -109,6 +109,85 @@ header #nav li a.active{
     color: white;
 }
 
+#dropdown{
+    padding: 0px;
+    
+}
+
+div #nav{
+    height: 66px;
+    width: 1000px;;
+    font-size: 12px;
+    padding: 0px;
+    font-family: 'Space Mono', sans-serif;
+    text-align: center;
+    background-color: #eee;
+    margin: 0px;                              /*remove to get margin between bigImage and dropdown*/
+    margin-bottom: 0px;
+}
+
+div #nav ul{
+    width: 1000px;
+    list-style-type: none;
+    padding: 0px 0px 0px 0px; /*top right bottom left*/
+}
+
+div #nav li{
+    display: inline-block;
+    padding: 25px 0px 25px 0px; /*top right bottom left*/
+    position: relative;
+}
+
+div #nav li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 30px 14px 30px; /*top right bottom left*/
+}
+
+div #nav li ul{
+    padding: 0px 10px 10px 0px;
+    margin: 0px;
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+    display: none;         /*change to none!!!*/
+    position: absolute;
+    background-color: #eee;
+}
+
+div #nav li:hover{
+    background-color: #666;
+}
+
+div #nav li:hover ul{
+    display: block;
+}
+
+div #nav li ul li{
+    background-color: inherit;
+    width: 200px;
+    padding: 10px 10px 10px 0px;/*top right bottom left*/
+}
+
+div #nav li ul li a{
+    padding: 10px;
+    padding-right: ;
+    width: 100px;
+}
+
+div #nav li ul li a:hover{
+    color: white;
+    background-color: #333;
+}
+
+div #nav li a:hover{
+    color: white;
+    background-color: #333;
+}
+
 section{
     /*background-color: aliceblue;*/
 }
