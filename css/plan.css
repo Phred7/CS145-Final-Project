@@ -8,4 +8,24 @@
 
 p{
     max-width: 39ch;
+    padding-bottom: px;
+}
+
+.stack h2{
+}
+
+.stack h3{
+
+}
+
+.stack img{
+    float: left;
+}
+
+div{
+    padding: 0px; 
+    display: block;
+    width: 1000px;
+    text-align: left;
+    padding-left: 10px;
 }
