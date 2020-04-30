@@ -1,3 +1,11 @@
-#price.stack{
-    text-align: right;
+#price{
+    width: 310px;
+    display: inline-block;
+    text-align: center;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+p{
+    max-width: 39ch;
 }
