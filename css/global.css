@@ -108,7 +108,7 @@ header #nav li a.active{
     
 }
 
-div #nav{
+div #nav2{
     height: 66px;
     width: 1000px;;
     font-size: 12px;
@@ -120,19 +120,19 @@ div #nav{
     margin-bottom: 0px;
 }
 
-div #nav ul{
+div #nav2 ul{
     width: 1000px;
     list-style-type: none;
     padding: 0px 0px 0px 0px; /*top right bottom left*/
 }
 
-div #nav li{
+div #nav2 li{
     display: inline-block;
     padding: 25px 0px 25px 0px; /*top right bottom left*/
     position: relative;
 }
 
-div #nav li a{
+div #nav2 li a{
     text-decoration: none;
     color: #333;
     font-weight: bold;
@@ -141,7 +141,7 @@ div #nav li a{
     padding: 14px 30px 14px 30px; /*top right bottom left*/
 }
 
-div #nav li ul{
+div #nav2 li ul{
     padding: 0px 10px 10px 0px;
     margin: 0px;
     margin-top: 20px;
@@ -152,34 +152,34 @@ div #nav li ul{
     background-color: #eee;
 }
 
-div #nav li:hover #head{
+div #nav2 li:hover .head{
     color: white;
     background-color: #333;
 }
 
-div #nav li:hover ul{
+div #nav2 li:hover ul{
     display: block;
     background-color: #eee;
     color: #333;
 }
 
-div #nav li ul li{
+div #nav2 li ul li{
     background-color: inherit;
     width: 200px;
     padding: 10px 10px 10px 0px;/*top right bottom left*/
 }
 
-div #nav li ul li a{
+div #nav2 li ul li a{
     padding: 10px;
     width: 100px;
 }
 
-div #nav li ul li a:hover{
+div #nav2 li ul li a:hover{
     color: white;
     background-color: #333;
 }
 
-div #nav li a:hover{
+div #nav2 li a:hover{
     color: white;
     background-color: #333;
 }
