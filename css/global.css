@@ -152,12 +152,15 @@ div #nav li ul{
     background-color: #eee;
 }
 
-div #nav li:hover{
-    background-color: #666;
+div #nav li:hover #head{
+    color: white;
+    background-color: #333;
 }
 
 div #nav li:hover ul{
     display: block;
+    background-color: #eee;
+    color: #333;
 }
 
 div #nav li ul li{
@@ -168,7 +171,6 @@ div #nav li ul li{
 
 div #nav li ul li a{
     padding: 10px;
-    padding-right: ;
     width: 100px;
 }
 
